@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(2, 133, 35);
-}
+body {}
 
 #container {
     width: 70px;
@@ -62,4 +60,78 @@ h3 {
 
 .estilo1 {
     color: #E67E22;
+}
+
+
+/* section 2 xdd*/
+
+.contenedor {
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.contenedor h3 {
+    font-size: var(--titulos);
+    color: var(--color1);
+    margin-bottom: var(--espacios);
+}
+
+.contenedor p {
+    font-size: var(--subtitulos);
+    font-weight: 100;
+    color: var(--color1);
+}
+
+.after::after {
+    content: '';
+    display: block;
+    margin: auto;
+    margin-top: var(--espacios);
+    width: 100px;
+    height: 2px;
+    background: var(--color1);
+    margin-bottom: var(--espacios-contenido);
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content-card {
+    width: 31%;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    height: 400px;
+    transition: transform 0.5s;
+    background-color: aqua;
+}
+
+.people {
+    height: 80%;
+}
+
+.content-card img {
+    width: 20%;
+    height: 100%;
+}
+
+.content-card:hover {
+    transform: translateY(-5px);
+}
+
+.texto-team {
+    height: 20%;
+    width: 100%;
+    padding: var(--espacios) 0;
+}
+
+.btn {
+    background: #E67E22;
+    color: blanchedalmond;
+    padding: 1px 30px;
 }

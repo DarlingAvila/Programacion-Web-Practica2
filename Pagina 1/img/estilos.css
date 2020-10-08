@@ -131,6 +131,7 @@ h3 {
 .content-card img {
     width: 20%;
     height: 100%;
+    margin: 20px;
 }
 
 .content-card:hover {

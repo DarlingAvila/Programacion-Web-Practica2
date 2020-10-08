@@ -80,22 +80,28 @@ h3 {
 
 .contenedor h1 {
     color: black;
+    font-size: 20px;
 }
 
 .contenedor h2 {
     color: #566573;
+    font-size: 13px;
+    font-size: 15px;
+    font-style: italic;
 }
 
 .contenedor h3 {
     font-size: var(--titulos);
     color: #616A6B;
     margin-bottom: var(--espacios);
+    font-size: 10px;
 }
 
 .contenedor p {
     font-size: var(--subtitulos);
     font-weight: 100;
     color: #515A5A;
+    font-size: 13px;
 }
 
 .after::after {
@@ -147,4 +153,9 @@ h3 {
     background: #E67E22;
     color: blanchedalmond;
     padding: 2px 30px;
+}
+
+h4 {
+    color: blue;
+    border-bottom: dashed;
 }

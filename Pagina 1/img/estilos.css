@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(2, 133, 35);
+}
+
+#container {
+    width: 70px;
+    margin: 0px auto;
+}
+
+header {
+    background: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor-nav {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    height: inherit;
+    overflow: hidden;
+}
+
+.logo,
+.logo img {
+    width: 40%;
+}

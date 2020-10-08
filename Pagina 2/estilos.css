@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background-image: url(img/fondo1.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #61554c;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    padding-top: 26px;
+    color: #fff;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    padding-top: 26px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    text-align: center;
+}

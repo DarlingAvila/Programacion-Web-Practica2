@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-h1 {
+.Pag2h1 {
     padding-top: 26px;
     color: #fff;
     font-size: 36px;
@@ -34,11 +34,11 @@ p {
     text-align: center;
 }
 
-h5 {
+.Pag2h5 {
     text-align: center;
 }
 
-.container {
+.containerP2 {
     height: 180px;
     grid-template-columns: repeat(4 1fr);
     position: center;
@@ -48,7 +48,7 @@ h5 {
     margin: 10px;
 }
 
-.img {
+.Pag2img {
     width: 60px;
     height: 60px;
     justify-content: center;
@@ -100,7 +100,7 @@ h5 {
     text-align: top;
 }
 
-.container-1 {
+.containerPag-1 {
     height: 250px;
     width: 245px;
     grid-template-columns: repeat(4 1fr);

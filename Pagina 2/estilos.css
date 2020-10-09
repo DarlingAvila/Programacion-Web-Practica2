@@ -16,6 +16,15 @@ h1 {
     text-align: center;
 }
 
+.after::after {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 2px;
+    background: #cdaa72;
+    left: 45%;
+}
+
 p {
     padding-top: 26px;
     color: #fff;

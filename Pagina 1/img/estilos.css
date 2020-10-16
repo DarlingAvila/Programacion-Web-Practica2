@@ -87,8 +87,17 @@ h3 {
 }
 
 .contenedor h3 {
+    font-size: var(--titulos);
     color: #616A6B;
+    margin-bottom: var(--espacios);
     font-size: 10px;
+}
+
+.contenedor p {
+    font-size: var(--subtitulos);
+    font-weight: 100;
+    color: #515A5A;
+    font-size: 13px;
 }
 
 .after::after {
@@ -115,6 +124,10 @@ h3 {
     height: 400px;
     transition: transform 0.5s;
     background-color: rgb(255, 255, 255);
+}
+
+.people {
+    height: 80%;
 }
 
 .content-card img {
@@ -168,7 +181,7 @@ h4 {
 }
 
 p {
-    padding-top: 16px;
+    padding-top: 2z6px;
     color: #fff;
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
